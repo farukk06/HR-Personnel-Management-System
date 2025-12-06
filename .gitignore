@@ -1,0 +1,60 @@
+##############################
+# BUILD OUTPUT
+##############################
+bin/
+obj/
+
+##############################
+# VISUAL STUDIO
+##############################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.cache
+*.pdb
+*.log
+
+##############################
+# PROJECT FILES
+##############################
+*.tmp
+*.bak
+*.backup
+*.tmp
+*.ilk
+*.opendb
+*.opensdf
+*.sdf
+
+##############################
+# NUGET
+##############################
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+##############################
+# POSTGRESQL
+##############################
+*.env
+*.ini
+*.config
+*.dump
+
+# Allow our project SQL files
+!database/**/*.sql
+
+##############################
+# SYSTEM FILES
+##############################
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+
+##############################
+# DRAW.IO
+##############################
+*.drawio.bkp
