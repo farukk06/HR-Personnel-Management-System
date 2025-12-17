@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_leave_after_update AFTER UPDATE ON "public"."LeaveRequest" FOR EACH ROW EXECUTE FUNCTION trg_leave_after_approve();

@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_salary_calc BEFORE INSERT ON "public"."Salary" FOR EACH ROW EXECUTE FUNCTION trg_salary_before_insert();

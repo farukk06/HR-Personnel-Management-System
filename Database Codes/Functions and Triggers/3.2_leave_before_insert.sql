@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_leave_before_insert BEFORE INSERT ON "public"."LeaveRequest" FOR EACH ROW EXECUTE FUNCTION trg_leave_quota_check();
